@@ -12,9 +12,13 @@
 
 ## Requirement
 python 3.5
+
 requests
+
 threading(如果希望多线程）
+
 Beautiful soup4
+
 ## Usage
 通过修改main.py 里面的start date， end date，save path来得到自己需要的起始时间，以及保存路径。
 现在的爬取方法是爬取数据后等待来完成的，如果希望通过采用ip池的方法进行数据的爬取可以参考这个git [proxy_pool](https://github.com/jhao104/proxy_pool)来进行搭建。
